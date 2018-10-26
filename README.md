@@ -3,31 +3,34 @@
 **Requirement**: MacOS or Linux
 
 
-1. Download Docker for MacOS:
+### Download Docker for MacOS:
 
 <https://download.docker.com/mac/stable/Docker.dmg>
 
+### Sandbox Environment
+
 > Run the following commands in your **Terminal**
 
-2. Pull custom built image with test data: 
+1. Pull custom built image with test data: 
 ```bash
 docker run -d --name sql amacharla/mysql-practice
 ```
 
-3. Access mysql container:
+2. Access mysql container:
 ```bash
 docker exec -it sql /bin/bash
 ```
 
-4. Onces inside the container here is how you access MySQL:
+3. Onces inside the container here is how you access MySQL:
 ```
 mysql -uroot -proot hbnb_dev_db
 ```
 
-5. To exit container:
+4. To exit container:
 ```bash
 exit
 ```
+
 ---
 
 ### Things to try once you accessed the container :
