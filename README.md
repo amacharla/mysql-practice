@@ -4,13 +4,16 @@
 
 **Requirement**: MacOS or Linux
 
-1. Download Docker MacOS:
+0. Download Docker for MacOS:
 
 <https://download.docker.com/mac/stable/Docker.dmg>
 
+1. Run the following commands in your **Terminal**
+
+
 2. Pull custom built image with test data: 
 ```bash
-docker run -d --name sql amacharla/mysql_practice
+docker run -d --name sql amacharla/mysql-practice
 ```
 
 3. Access mysql container:
@@ -18,7 +21,7 @@ docker run -d --name sql amacharla/mysql_practice
 docker exec -it sql /bin/bash
 ```
 
-4. Onces inside the container access mysql:
+4. Onces inside the container here is how you access MySQL:
 ```
 mysql -uroot -proot hbnb_dev_db
 ```
