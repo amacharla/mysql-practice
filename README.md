@@ -30,10 +30,11 @@ exit
 ```
 ---
 
-###Things to try once you accessed the container :
-- show databases;  <- see all the databases
-- show tables; <- see all the tables IN the hbnb_dev_db database
-- select * from amenities; <- see all the columns and rows in the amenities table inside the hbnb_dev_db database
+### Things to try once you accessed the container :
+- `show databases;` <- see all the databases
+- `show tables;` <- see all the tables IN the hbnb_dev_db database
+- `select * from amenities;` <- see all the columns and rows in the amenities table inside the hbnb_dev_db database
+
 
 
 > Note: This mysql instance is running inside your computer in a docker container.
