@@ -1,13 +1,11 @@
-# mysql-practice
+# MySQL Practice
 
 **MySql Instance with test data**
 
 **Requirement**: MacOS or Linux
 
 1. Download Docker MacOS:
-```html
-https://download.docker.com/mac/stable/Docker.dmg
-```
+<https://download.docker.com/mac/stable/Docker.dmg>
 
 2. Pull custom built image with test data: 
 ```bash
